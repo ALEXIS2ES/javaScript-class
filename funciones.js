@@ -4,8 +4,24 @@
 
 // declaracion de mi funcion saludar
 
-function saludar(){
+function saluda(){
     console.log("hola muy buenos dias")
 }
 
-saludar()
+saluda()
+
+/**
+ * funciones -parametros
+ */
+
+
+function saludar(nombre){
+
+    if (typeof nombre === "string"){
+        console.log(`hola,${nombre} muy buenos dias`)
+    }else[
+        console.log("escriba un nombre correcto")
+    ]
+}
+saludar(512)
+
