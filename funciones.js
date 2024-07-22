@@ -15,7 +15,7 @@ saluda()
  */
 
 
-function saludar(nombre){
+function salud(nombre){
 
     if (typeof nombre === "string"){
         console.log(`hola,${nombre} muy buenos dias`)
@@ -23,5 +23,13 @@ function saludar(nombre){
         console.log("escriba un nombre correcto")
     ]
 }
-saludar(512)
+
+/**
+ * funciones - valores de retorno
+ */
+
+function obtenerNombreCompleto(nombre, apellido){
+     return `${nombre} ${apellido}`
+}
+console.log(obtenerNombreCompleto("alexis", "CCamerccoa"))
 
